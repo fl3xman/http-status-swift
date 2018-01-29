@@ -10,7 +10,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "HttpStatus", dependencies: []),
+        .target(name: "HttpStatus", path: "./Sources"),
         .testTarget(name: "HttpStatusTests", dependencies: ["HttpStatus"]),
     ]
 )
